@@ -16,7 +16,7 @@ catgo={}
 for i in lst:
     catgo[i.capitalize()]=i
 
-st.write("<h2 style=color:#EF5A6F;font-size:32px;>Generate Quotes Effortlessly for Every Occasion.</h2>",unsafe_allow_html=True)
+st.write("<h2 style=color:#EF5A6F;font-size:30px;>Generate Quotes Effortlessly for Every Occasion.</h2>",unsafe_allow_html=True)
 
 category=st.selectbox("Choose a Category",catgo.keys())
 
